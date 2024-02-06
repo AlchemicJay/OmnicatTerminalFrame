@@ -6,7 +6,7 @@ export async function POST(req: NextRequest): Promise<Response> {
 
   let path: string;
   if (buttonId === 1) {
-    path = 'cosmiccowboys';
+    path = 'omnicatterminal';
   } else if (buttonId === 2) {
     path = 'omnicatbase';
   } else if (buttonId === 3) {
