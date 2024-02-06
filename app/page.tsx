@@ -7,7 +7,7 @@ const frameMetadata = getFrameMetadata({
       label: "Begin"
     }
   ],
-  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmV6JaDnQ8CPZCsRjXBEvdNcx4jd4M2389EZz19pUatUrp/0.png`,
+  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmcBdVkQDNehTArcoXxnxfBfwMQ2L1wUZbaCqD1dbYUj8C/0.png`,
   post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
 });
 
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Omnicat Terminal',
     description: 'Multichain Application Terminal',
-    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmV6JaDnQ8CPZCsRjXBEvdNcx4jd4M2389EZz19pUatUrp/0.png`],
+    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmcBdVkQDNehTArcoXxnxfBfwMQ2L1wUZbaCqD1dbYUj8C/0.png`],
   },
   other: {
     ...frameMetadata,
