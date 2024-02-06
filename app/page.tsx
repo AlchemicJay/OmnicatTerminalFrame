@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>Cosmic Cowboys</h1>
+      <h1>Omnicat Terminal</h1>
     </>
   );
 }
