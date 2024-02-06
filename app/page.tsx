@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: "Begin"
+      label: "He is everywhere"
     }
   ],
   image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmcBdVkQDNehTArcoXxnxfBfwMQ2L1wUZbaCqD1dbYUj8C/0.png`,
